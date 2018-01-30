@@ -1,0 +1,121 @@
+/*弹出框头部背景色，字体颜色,关闭按钮颜色*/
+.layui-layer-title{
+    height: 45px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 45px;
+    /*background-color: #2ea1f8;*/
+    background: url(layer-head-bg.png);
+}
+.layui-layer-ico{
+    background: url(icon.png);
+}
+/*弹出框正文样式*/
+.layui-layer-dialog .layui-layer-content,
+.layui-layer-page .layui-layer-content{
+    position: relative;
+    padding:39px 50px ;
+}
+.layui-layer-content .error-msg{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    right: 50px;
+    width: 300px;
+}
+/*弹出框按钮外部盒子样式*/
+.layui-layer-btn{
+    padding: 12px;
+    border-top:1px solid #ccc;
+}
+/*弹出框按钮（确定，取消）样式*/
+.layui-layer-btn .layui-layer-btn0,
+.layui-layer-btn .layui-layer-btn1{
+    width: 70px;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+.layui-layer-btn .layui-layer-btn0{
+    background-color: #32aa70;
+}
+.layui-layer-btn .layui-layer-btn1{
+    background-color: #999;
+}
+
+/*输入框样式*/
+.layer-style-input{
+    padding-left: 10px;
+    border-radius: 2px;
+    background-color: #fff;
+    color: #999;
+    font-size: 12px;
+    -webkit-box-shadow: inset 0 1px 4px rgba(51,51,51,.4);
+    -moz-box-shadow: inset 0 1px 4px rgba(51,51,51,.4);
+    box-shadow: inset 0 1px 4px rgba(51,51,51,.4);
+    border: solid 1px #ccc;
+}
+/*登录页图片验证输入框样式*/
+.img-check{
+    margin-top: 10px;
+}
+.layui-layer-content .img-check input{
+    width: 200px;
+    height: 36px;
+}
+.layui-layer-content .img-check img{
+    margin-left: 5px;
+    width: 80px;
+    height: 36px;
+}
+.layui-layer-content p{
+    /*margin-bottom: 5px;*/
+}
+.layer-btn-bg{
+    position: relative;
+    width: 80px;
+    height: 36px;
+    background: url(btn-bg.png);
+    border: 1px solid #ced0da;
+    border-radius: 0!important;
+}
+.layer-validatecode-wrap{
+    margin-top: 10px;
+}
+.layer-change-input,
+.layer-validatecode-wrap input{
+    padding-left: 10px;
+    width: 200px;
+    height: 36px;
+    -webkit-box-shadow: inset 0 1px 4px rgba(51,51,51,.4);
+    -moz-box-shadow: inset 0 1px 4px rgba(51,51,51,.4);
+    box-shadow: inset 0 1px 4px rgba(51,51,51,.4);
+    border: solid 1px #ccc;
+}
+.layer-validatecode-wrap .btn{
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: 90px;
+    height: 36px;
+    line-height: 36px;
+}
+.bind-phoneno,
+.bind-email,
+.layer-change-password input{
+    padding-left: 10px;
+    width: 300px;
+    height: 36px;
+    -webkit-box-shadow: inset 0 1px 4px rgba(51,51,51,.4);
+    -moz-box-shadow: inset 0 1px 4px rgba(51,51,51,.4);
+    box-shadow: inset 0 1px 4px rgba(51,51,51,.4);
+    border: solid 1px #ccc;
+}
+.layer-change-password div input{
+    margin-bottom: 10px;
+}
+.layer-change-password div:last-of-type input{
+    margin-bottom: 0;
+}
